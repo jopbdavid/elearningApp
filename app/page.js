@@ -7,18 +7,28 @@ import { UserButton } from "@clerk/nextjs";
 import About from "@/components/About";
 import Contacts from "@/components/Contacts";
 import Remote from "@/components/Remote";
+import Grid from "@/components/Grid";
 
 export default function Home() {
   return (
     <div>
-      <div className="h-56 flex flex-row items-center">
-        <Image src="/img/logonobg.png" width={200} height={200} />
-        <h1 className="text-primary pt-8 text-6xl ">O MOÇO DA QUÍMICA</h1>
+      <div className="flex flex-row items-center p-6">
+        <Image src="/img/icon2.png" width={100} height={100} />
+        <h1 className="text-accent text-5xl tracking-[0.25em] font-bold p-6 ">
+          <span className="text-7xl text-primary">J</span>OÃO{" "}
+          <span className="text-7xl text-primary">D</span>AVID
+        </h1>
+        <p className="text-center -mb-24 text-2xl tracking-[0.1em] italic">
+          Tutor, mentor, curioso
+        </p>
       </div>
+
       <Hero />
-      <Remote />
-      <Carousel />
       <About />
+      {/* <div className="border-b-2 w-1/2 mx-auto border-black"></div> */}
+      <Grid />
+      <Carousel />
+
       <Contacts />
       <div className="py-12 text-center">
         {/* <Link href="/news" className="btn btn-primary w-80">

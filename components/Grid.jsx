@@ -3,11 +3,11 @@ import React from "react";
 const Grid = () => {
   return (
     <div>
-      <h1 className="text-3xl font-medium mt-10">
+      <h1 className="text-3xl font-medium mt-10 text-center">
         Porquê é que precisas de mim?
       </h1>
-      <div className="grid gap-3 row-gap-3 w-full grid-cols-3 mt-12">
-        <div className="flex flex-col  p-3 ">
+      <div className="grid gap-3 row-gap-3 w-full grid-cols-3 mt-12 text-center">
+        <div className="flex flex-col p-3 shadow-lg rounded-md">
           <div className="w-16 h-16 mb-4 mx-auto">
             <img src="/img/learn.png" alt="front end icon" />
           </div>
@@ -23,7 +23,7 @@ const Grid = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col  p-3 ">
+        <div className="flex flex-col p-3 shadow-lg rounded-md">
           <div className="w-16 h-16 mb-4 mx-auto">
             <img src="/img/habit.png" alt="back-end icon" />
           </div>
@@ -38,7 +38,7 @@ const Grid = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col  p-3 ">
+        <div className="flex flex-col p-3 shadow-lg rounded-md">
           <div className="w-16 h-16 mb-4 mx-auto">
             <img src="/img/atom.png" alt="database icon" />
           </div>
