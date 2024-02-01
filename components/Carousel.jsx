@@ -6,21 +6,25 @@ const Carousel = () => {
   const [slide, setSlide] = useState(1);
   return (
     <>
-      <div className="carousel w-[80%] mt-12 ml-[10%] bg-neutral-200 rounded-3xl">
+      <div className="carousel w-[80%] h-28 md:h-auto mt-12 ml-[10%] bg-neutral-200 rounded-3xl">
         {slide === 1 && (
           <div className="carousel-item relative w-full">
             <img
               src="./img/chemistry.png"
               alt=""
-              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-0 md:mt-6"
+              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-6 md:mt-0"
             />
-
-            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <p className="text-secondary text-[0.7em] md:text-xl font-bold ml-[25%]">
-                Domine a Química com tutorias detalhadas e suporte
-                especializado. Aprenda os conceitos, faça experimentos virtuais
-                e prepare-se para exames com confiança.
-              </p>
+            <div>
+              <h1 className="text-md md:text-2xl font-semibold font-mono">
+                Química
+              </h1>
+              <div className="absolute transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <p className="text-secondary text-[0.7em] md:text-lg font-bold ml-[25%] md:ml-[30%]">
+                  A verdadeira magia do nosso mundo, a receita secreta da
+                  cozinha do universo, onde os elementos se combinam de formas
+                  fascinantes.
+                </p>
+              </div>
             </div>
           </div>
         )}
@@ -29,12 +33,16 @@ const Carousel = () => {
             <img
               src="./img/relativity.png"
               alt=""
-              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-0 md:mt-6"
+              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-6 md:mt-0"
             />
+            <h1 className="text-md md:text-2xl font-semibold font-mono">
+              Física
+            </h1>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <p className="text-secondary text-[0.7em] md:text-xl font-bold ml-[25%]">
-                Explore o fascinante mundo da Física. Entenda as leis que regem
-                o universo através de lições interativas e abordagens práticas.
+              <p className="text-secondary text-[0.7em] md:text-lg font-bold ml-[25%] md:ml-[30%]">
+                A linguagem secreta do Universo. Porquê é que as bolas de
+                futebol fazem curvas perfeitas? Porquê é que o teu telemóvel cai
+                sempre com o ecrã virado para baixo?
               </p>
             </div>
           </div>
@@ -44,13 +52,15 @@ const Carousel = () => {
             <img
               src="./img/bacteria.png"
               alt=""
-              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-0 md:mt-6"
+              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-6 md:mt-0"
             />
+            <h1 className="text-md md:text-2xl font-semibold font-mono">
+              Biologia
+            </h1>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <p className="text-secondary text-[0.7em] md:text-xl font-bold ml-[25%]">
-                Maximize seu potencial nos exames. Com métodos de estudo
-                eficazes e práticas de testes, ajudamos você a alcançar os
-                melhores resultados.
+              <p className="text-secondary text-[0.7em] md:text-lg font-bold ml-[25%] md:ml-[30%]">
+                Uma viagem selvagem pela selva que é a vida. Já te questionas-te
+                o que te faz ser, bem, tu?
               </p>
             </div>
           </div>
