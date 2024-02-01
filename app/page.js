@@ -14,11 +14,11 @@ export default function Home() {
     <div>
       <div className="flex flex-row items-center p-6">
         <Image src="/img/icon2.png" width={100} height={100} />
-        <h1 className="text-accent text-5xl tracking-[0.25em] font-bold p-6 ">
-          <span className="text-7xl text-primary">J</span>OÃO{" "}
-          <span className="text-7xl text-primary">D</span>AVID
+        <h1 className="text-accent text-3xl md:text-5xl tracking-[0.25em] font-bold p-2 md:p-6">
+          <span className="text-5xl md:text-7xl text-primary">J</span>OÃO{" "}
+          <span className="text-5xl md:text-7xl text-primary">D</span>AVID
         </h1>
-        <p className="text-center -mb-24 text-2xl tracking-[0.1em] italic">
+        <p className="text-center -mb-16 md:-mb-24 text-xl md:text-2xl tracking-[0.1em] italic">
           Tutor, mentor, curioso
         </p>
       </div>

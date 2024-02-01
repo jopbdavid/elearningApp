@@ -3,15 +3,15 @@ import React from "react";
 const Grid = () => {
   return (
     <div>
-      <h1 className="text-3xl font-medium mt-10 text-center">
+      <h1 className="md:text-3xl text-xl font-medium mt-10 text-center">
         Porquê é que precisas de mim?
       </h1>
-      <div className="grid gap-3 row-gap-3 w-full grid-cols-3 mt-12 text-center">
+      <div className="grid gap-3 row-gap-3 w-full md:grid-cols-3 grid-row-3 mt-12 text-center">
         <div className="flex flex-col p-3 shadow-lg rounded-md">
           <div className="w-16 h-16 mb-4 mx-auto">
             <img src="/img/learn.png" alt="front end icon" />
           </div>
-          <h4 className="mb-2 font-semibold leading-5 text-lg">
+          <h4 className="mb-2 font-semibold leading-5 text-md md:text-lg">
             Desenvolve competências e muito mais!
           </h4>
           <div className="flex flex-col text-sm mt-2">
@@ -27,7 +27,7 @@ const Grid = () => {
           <div className="w-16 h-16 mb-4 mx-auto">
             <img src="/img/habit.png" alt="back-end icon" />
           </div>
-          <h4 className="mb-2 font-semibold leading-5 text-lg text-gray-900">
+          <h4 className="mb-2 font-semibold leading-5 text-md md:text-lg text-gray-900">
             Estudo Acompanhado
           </h4>
           <div className="flex flex-col text-sm mt-2">
@@ -43,7 +43,7 @@ const Grid = () => {
             <img src="/img/atom.png" alt="database icon" />
           </div>
 
-          <h4 className="mb-2 font-semibold leading-5 text-lg text-gray-900">
+          <h4 className="mb-2 font-semibold leading-5 text-md md:text-lg text-gray-900">
             A ciência é uma maravilha.
           </h4>
           <div className="flex flex-col  text-sm mt-2">

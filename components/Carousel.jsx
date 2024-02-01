@@ -12,11 +12,11 @@ const Carousel = () => {
             <img
               src="./img/chemistry.png"
               alt=""
-              className="w-32 h-32 ml-[10%] mt-6"
+              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-0 md:mt-6"
             />
 
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <p className="text-secondary text-xl font-bold ml-[25%]">
+              <p className="text-secondary text-[0.7em] md:text-xl font-bold ml-[25%]">
                 Domine a Química com tutorias detalhadas e suporte
                 especializado. Aprenda os conceitos, faça experimentos virtuais
                 e prepare-se para exames com confiança.
@@ -29,10 +29,10 @@ const Carousel = () => {
             <img
               src="./img/relativity.png"
               alt=""
-              className="w-32 h-32 ml-[10%] mt-6"
+              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-0 md:mt-6"
             />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <p className="text-secondary text-xl font-bold ml-[25%]">
+              <p className="text-secondary text-[0.7em] md:text-xl font-bold ml-[25%]">
                 Explore o fascinante mundo da Física. Entenda as leis que regem
                 o universo através de lições interativas e abordagens práticas.
               </p>
@@ -44,10 +44,10 @@ const Carousel = () => {
             <img
               src="./img/bacteria.png"
               alt=""
-              className="w-32 h-32 ml-[10%] mt-6"
+              className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-0 md:mt-6"
             />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <p className="text-secondary text-xl font-bold ml-[25%]">
+              <p className="text-secondary text-[0.7em] md:text-xl font-bold ml-[25%]">
                 Maximize seu potencial nos exames. Com métodos de estudo
                 eficazes e práticas de testes, ajudamos você a alcançar os
                 melhores resultados.
