@@ -3,9 +3,12 @@ import React from "react";
 const Contacts = () => {
   return (
     <>
-      <h1 className="md:text-3xl text-xl text-center font-bold p-12">
+      <h1 className="md:text-3xl text-xl text-center font-bold p-2">
         Ansioso? Não percas mais tempo!
       </h1>
+      <h2 className="md:text-xl text-md text-center font-semibold pb-8">
+        Entra em contacto comigo para mais informações:
+      </h2>
       <div className=" flex items-center justify-center">
         <div className="flex md:flex-row flex-col md:w-[60%]">
           <div className="grid h-20 flex-grow card bg-base-200 rounded-box place-items-center">

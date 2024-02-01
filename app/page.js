@@ -27,7 +27,6 @@ export default function Home() {
       <About />
       {/* <div className="border-b-2 w-1/2 mx-auto border-black"></div> */}
       <Grid />
-      <Carousel />
 
       <Contacts />
       <div className="py-12 text-center">
