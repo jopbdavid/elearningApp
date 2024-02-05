@@ -55,12 +55,12 @@ const Carousel = () => {
               className="md:w-32 md:h-32 w-16 h-16 ml-[10%] mt-6 md:mt-0"
             />
             <h1 className="text-md md:text-2xl font-semibold font-mono">
-              Biologia - Ciências Naturais
+              Biologia/Geologia - Ciências Naturais
             </h1>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <p className="text-secondary text-[0.7em] md:text-lg font-bold ml-[25%] md:ml-[30%]">
-                Uma viagem selvagem pela selva que é a vida. Já te questionas-te
-                o que te faz ser, bem, tu?
+                Uma viagem selvagem pela selva que é a vida. Já te questionaste
+                o que te faz ser... tu próprio?
               </p>
             </div>
           </div>

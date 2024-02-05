@@ -23,7 +23,7 @@ const Hero = () => {
                 </p> */}
                 <Image src="/img/degree.png" width={50} height={50} />
                 <p className="pl-10 pt-3 text-md md:text-xl lg:text-2xl font-semibold tracking-[0.2em]">
-                  7º - 12º
+                  7º - 11º
                 </p>
               </div>
               <div className="flex flex-row align-center my-6">

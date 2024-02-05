@@ -25,16 +25,16 @@ const Grid = () => {
         </div>
         <div className="flex flex-col p-3 shadow-lg rounded-md">
           <div className="w-16 h-16 mb-4 mx-auto">
-            <img src="/img/habit.png" alt="back-end icon" />
+            <img src="/img/habit.png" alt="estudoAcompanhado" />
           </div>
           <h4 className="mb-2 font-semibold leading-5 text-md md:text-lg text-gray-900">
             Estudo Acompanhado
           </h4>
           <div className="flex flex-col text-sm mt-2">
             <p className="flex flex-row">
-              Mais que um tutor, um mentor. Vou estar ao teu lado a estudar
-              contigo, a moldar o teu método. Acima de tudo, a partilhar a minha
-              experiência para não pisares a poça onde eu já pisei!
+              Mais que um tutor, um mentor. Vou estar ao teu lado a ajudar-te a
+              criar o teu método de estudo, partilhando a minha experiência para
+              não tropeçares onde eu já tropecei!
             </p>
           </div>
         </div>
@@ -48,9 +48,9 @@ const Grid = () => {
           </h4>
           <div className="flex flex-col  text-sm mt-2">
             <p className="flex flex-row">
-              É tudo menos um embarasso que tens de decorar. Ciência é vida é
-              tudo o que nos rodeia. Eu vou-te mostrar como é possível te
-              apaixonares por ela.
+              Ciência é tudo o que nos rodeia, desde o infinitamente pequeno
+              átomo ao infinitamente grande Espaço Sideral. Vou mostrar-te como
+              é possível apaixonares-te por ela.
             </p>
           </div>
         </div>
